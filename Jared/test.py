@@ -1,7 +1,7 @@
 import openai
 import json
 
-openai.api_key = "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"
+openai.api_key = "your key"
 
 def ask_chatgpt(prompt):
     response = openai.Completion.create(
